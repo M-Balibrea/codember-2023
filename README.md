@@ -1,8 +1,19 @@
+<!-- @format -->
+
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CHALLENGE_01.txt
 
-Currently, two official plugins are available:
+Un espía está enviando mensajes encriptados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tu misión es crear un programa que nos ayude a buscar patrones...
+
+Los mensajes son palabras separadas por espacios como este:
+gato perro perro coche Gato peRRo sol
+
+Necesitamos que el programa nos devuelva el número de veces que aparece cada palabra en el mensaje, independientemente de si está en mayúsculas o minúsculas.
+
+El resultado será una cadena de texto con la palabra y el número de veces que aparece en el mensaje, con este formato:
+gato2perro3coche1sol1
+
+¡Las palabras son ordenadas por su primera aparición en el mensaje!
